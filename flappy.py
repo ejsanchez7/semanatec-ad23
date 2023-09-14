@@ -8,9 +8,18 @@ Exercises
 4. Allow the bird to move forward and back.
 """
 
-from random import *
-from turtle import *
-
+from random import randrange
+from turtle import goto
+from turtle import dot
+from turtle import update
+from turtle import ontimer
+from turtle import setup
+from turtle import hideturtle
+from turtle import up
+from turtle import tracer
+from turtle import onscreenclick
+from turtle import done
+from turtle import clear
 from freegames import vector
 
 bird = vector(0, 0)
